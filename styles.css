@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 15%;
+  flex-shrink: 0; /* To prevent loss of aspect ratio on shrinking */
+  min-width: 95px;
+}
+
+main {
+  display: flex;
+  height: 100%;
+}
+
+main aside {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  grid-column-start: 3;
+  width: 3rem;
+  flex-grow: 1;
+}
+
+aside .fa {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  flex-grow: 1;
+  width: 3rem;
+}
+
+aside .fab {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  flex-grow: 1;
+  width: 3rem;
+}
+
+.content {
+  background-color: ;
+  width: 100%;
+}
+
+.header {
+  background-color: #03bae4;
+  color: white;
+
+  display: flex;
+}
+
+img {
+  margin: rem;
+  margin: 1.3rem;
+}
+
+.header_description {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.above-description {
+  padding-top: 0.9rem;
+}
+.above-description > p {
+  margin: 0.3rem;
+}
+
+.below-description {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 1rem;
+}
+
+.courses_list {
+  list-style: none;
+  padding-left: 0.7rem;
+  padding-bottom: 1rem;
+  width: 100%;
+}
+
+.courses_list li {
+  display: flex;
+  align-items: stretch;
+  padding-right: 3rem;
+}
+
+.courses_list li p {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0.7rem;
+}
+
+.courses_list li:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.courses_list button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f37786;
+  width: 30%;
+  margin: 0.2rem;
+  margin-right: 3rem;
+  border-radius: 50px;
+  border: none;
+  color: white;
+}
+
+footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 2rem;
+  background-color: #f37786;
+  padding-bottom: 1rem;
+  margin-top: auto;
+}
+
+footer .left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: ;
+  margin-left: 4rem;
+}
+
+footer .left p {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+}
+
+footer .right {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+footer .right i {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-flow: row wrap;
+  align-items: stretch;
+  color: white;
+}
